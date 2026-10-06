@@ -1,9 +1,31 @@
 # Hearthbound Colonies
 
-## Setup
+Мод для Minecraft на Fabric, посвящённый созданию и развитию
+поселения с NPC-жителями и профессиями.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Проект находится на ранней стадии разработки.
+Первый игровой прототип: ратуша, один житель-лесоруб,
+добыча древесины и доставка ресурсов в хранилище.
 
-## License
+## Технологии
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- Minecraft 26.2
+- Fabric
+- Kotlin
+- Java 25
+
+## Сборка
+
+```powershell
+.\gradlew build
+```
+
+## Запуск для разработки
+
+```powershell
+.\gradlew runClient
+```
+
+## Лицензия
+
+CC0-1.0. См. файл LICENSE.
